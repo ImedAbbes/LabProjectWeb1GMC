@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoccinelleStore!</title>
+    <link rel="icon" href="res/coccinelle.png">
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <header class="menu">
+        <a href="index.html"><img src="res/CB logo.png"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Store.html">Boutique</a>
+                    <ul>
+                        <li><a href="Store.html#traditions">Traditionnelles</a></li>
+                        <li><a href="Store.html#biscuits">Biscuits</a></li>
+                        <li><a href="Store.html#macarons">Macarons</a></li>
+                        <li><a href="Store.html#cake">Gâteaux</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="articles">
+            <a name="traditions"></a>
+            <br><br><br><br>
+            <h1 class="title">Traditionnelles</h1>
+            <section class="section-container">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Baklawa</span>
+                        <img class="shop-item-image" src="res/baklawa1.jpg" alt="baklawa">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">48dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Kaak Warka</span>
+                        <img class="shop-item-image" src="res/kaakWarka.jpg" alt="KaakWarka">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">45dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="biscuits"></a>
+            <br><br><br><br>
+            <h1 class="title">Biscuits</h1>
+            <section class="section-container">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Cookies</span>
+                        <img class="shop-item-image" src="res/cookies.jpg" alt="">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">15dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Sablés</span>
+                        <img class="shop-item-image" src="res/sablee.jpg" alt="">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">17dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Zouza</span>
+                        <img class="shop-item-image" src="res/zouza.jpg" alt="">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">23dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="macarons"></a>
+            <br><br><br><br>
+            <h1 class="title">Macarons</h1>
+            <section class="section-container macarons">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Macaron</span>
+                        <img class="shop-item-image" src="res/macaron1.jpg" alt="baklawa">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">65dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="cake"></a>
+            <br><br><br><br>
+            <h1 class="title">Gâteaux</h1>
+            <section class="section-container gateaux">
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Gâteaux personnalisés</span>
+                        <img class="shop-item-image" src="res/cake.png" alt="baklawa">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">85dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Gâteaux fiancaille</span>
+                        <img class="shop-item-image" src="res/cake2.png" alt="baklawa">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">250dt</span>
+                            <button class="shop-item-button" type="button">Ajouter au panier</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section id="cart">
+            <h1 class="title">Panier</h1>
+            <img src="res/shop.png" alt="shopping" class="calculator">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Article</span>
+                <span class="cart-price cart-header cart-column">Prix</span>
+                <span class="cart-quantity cart-header cart-column">Quantité</span>
+            </div>
+            <div class="cart-items">
+                
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0dt</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Acheter</button>
+        </section>
+    </main>
+    <footer>
+        <section id="aboutCB">
+            <div class="info">
+                <h1>CoccinelleBonbons!</h1>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/CoccinelleBonbons"><img src="res/facebook.png" alt="facebookPage" width="50px" class="logos"></a>
+                <a href="https://www.instagram.com/coccinelle_bonbons"><img src="res/instagram.png" alt="instaPage" width="50px" class="logos"></a>
+            </div>
+        </section>
+        <section id="creator">
+            <div class="info">
+                <h1>Made with ♥ by Imed Abbes</h1>
+            </div>
+            <div class="social">
+                <a href="https://github.com/ImedAbbes"><img src="res/github.png" alt="github" width="50px" class="logos"></a>
+                <a href="https://www.linkedin.com/in/imed-abbes"><img src="res/linkedin.png" alt="linkedin" width="50px" class="logos"></a>
+            </div>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>    
+</body>
+</html>
